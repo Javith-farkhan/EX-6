@@ -40,10 +40,14 @@ s.connect(('localhost',8000))
 while True:
     ip=input("Enter the website you want to ping ")
     s.send(ip.encode())
-    print(s.recv(1024).decode())
+print(s.recv(1024).decode())
 
 ```
 # OUTPUT :
+
+![o1](https://github.com/Javith-farkhan/EX-6/assets/94296805/dd4f9506-f05b-4b9d-922a-9989b05a0967)
+
+![o2](https://github.com/Javith-farkhan/EX-6/assets/94296805/8e416b27-cb7b-4688-ba6d-d2e5e8bfe53e)
 
 # RESULT:
 ### Thus, the python program for simulating ping command was successfully executed.
